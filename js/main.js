@@ -13,3 +13,8 @@
 });
 
 
+/*pagina login*/
+
+$('#botao-criar').click(function (){
+ console.log('click');
+});
