@@ -1,3 +1,24 @@
+
+
+@media screen and (max-width: 480px) {
+
+   #nomeDaPagina{
+    text-align: left;
+    
+   }
+   
+   .img-midia{
+       width: 10%;
+       margin-top: -2%;
+      
+   }
+
+
+   #titulo-prod{
+        display: none;
+   }
+}
+
 body{
     display: flex;
     min-height: 100vh;
@@ -8,9 +29,7 @@ body{
 }
 
 
-main {
-    flex: 1 0 auto;
-  }
+
       
 #nomeDaPagina{
     font-size:65px;
@@ -88,11 +107,12 @@ main {
     
 }
 .produtos,.row, .col{
-    width: 50%;
+   
     display: inline-block;
 }
 .row{
-    margin-right: -390px;
+    
+   margin-right: -380px;
 }
 
 .preço{
