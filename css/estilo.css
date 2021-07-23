@@ -20,9 +20,7 @@
 }
 
 body{
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+   
     font-family: 'Alex Brush', cursive;
     background-image: linear-gradient( 89.8deg,  rgba(204,156,223,1) 0.3%, rgba(155,219,245,1) 20.4%,
      rgba(245,183,208,1) 40.2%, rgba(250,186,98,1) 62.9%, rgba(234,238,240,1) 81.9%, rgba(250,245,171,1) 99.2% );
@@ -106,14 +104,12 @@ body{
     margin-top: 2%;
     
 }
-.produtos,.row, .col{
-   
-    display: inline-block;
+.produtos,.row, .col, .card-image, .card-content, p, .card-action{
+    width: 300px;
+	display: inline-block;
+  
 }
-.row{
-    
-   margin-right: -380px;
-}
+
 
 .preço{
     text-align: center;
